@@ -1,0 +1,47 @@
+.MainContainers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+}
+.mainContianer{
+    border: 2px solid crimson;
+    display: flex;
+    color: crimson;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px 2px crimson;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.QuotesContainer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.AutoNameContainer{
+
+    font-size: 1.2rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+.MyGetQuoteButton{
+    border: 2px solid white;
+    background-color: crimson;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Great Vibes', cursive;
+    padding: 3px;
+    border-radius:5px;
+}
+.MyGetQuoteButton:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+}
